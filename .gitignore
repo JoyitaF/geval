@@ -1,0 +1,28 @@
+# Large datasets
+*.gz
+*.bam
+*.fastq
+*.vcf
+*.zip
+*.tar
+*.tgz
+
+# Annovar
+annovar/
+humandb/
+
+# Conda envs and cache
+.env/
+.venv/
+__pycache__/
+*.egg-info/
+*.pkl
+*.log
+
+# SLURM output
+slurm-*.out
+
+# Binary files
+*.so
+*.exe
+*.dll
